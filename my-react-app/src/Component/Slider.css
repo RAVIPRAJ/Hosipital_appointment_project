@@ -1,0 +1,162 @@
+.container-slider {
+  max-width: 1200px;
+  height: 500px;
+  margin: 1px 1px 0;
+  position: relative;
+  
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 700px){
+  .container-slider {
+    margin: 50px 10px 0;
+  }
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: dodgerblue;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slide img {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.prev {
+  top: 50%;
+  left: 5px;
+  transform: translateY(-60%);
+}
+.next {
+  top: 50%;
+  right: 5px;
+  transform: translateY(-60%);
+}
+
+
+.container-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  margin: 0 5px;
+  background: #f1f1f1;
+}
+.dot.active {
+  background: rgb(32, 32, 32);
+}
+
+.img1{
+
+  max-width: 300px;
+  height: 300px;
+
+}
+
+
+.img3{
+
+  max-width: 300px;
+  height: 300px;
+
+}
+
+
+.img2{
+
+  max-width: 60px;
+  height: 60px;
+
+}
+
+.backcolor{
+
+  background-color: aliceblue;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-left: 2px;
+  border-left-color: aqua;
+
+}
+
+
+.backcolor1{
+
+  background-color: aliceblue;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-bottom: 5px;
+  border-bottom-color: blue;
+
+}
+
+.backcolor2{
+
+  background-color: aliceblue;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+}
+
+.backcolor3{
+
+  background-color: beige;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-bottom: 5px;
+  border-bottom-color: blue;
+
+}
+
+
+@import url('https://code.jquery.com/jquery-3.1.1.slim.min.js');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js');
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/v4-shims.min.js');
+
+
+
+
+#mycontainer{
+  position: absolute;
+  max-width: 800px;
+  height: 800px;
+  margin: auto;
+  top: 50%;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+

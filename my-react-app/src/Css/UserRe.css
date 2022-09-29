@@ -1,0 +1,79 @@
+body1 {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+  }
+  
+  .container1 {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .form1 {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  .pre1 {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  .button1 {
+    background: #0563b4 !important;
+  }
+  .p1 {
+    color: rgb(0, 89, 255);
+  }
+
+
+
+.bbody {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c2ceac;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.login h1 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 14px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.validation{
+    color: aquamarine;
+}

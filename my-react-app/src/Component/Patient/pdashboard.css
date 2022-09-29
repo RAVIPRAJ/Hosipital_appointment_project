@@ -1,0 +1,78 @@
+.formClass{
+    padding-top: 20px ;
+    margin-top: 22px;
+    background-color: rgb(100, 102, 250);
+    max-width: 700px;
+    padding-bottom: 30px;
+    margin-bottom: 32px;
+    
+
+
+}
+
+.inputClass{
+ margin: 10px;
+ border-color: rgb(190, 190, 255);
+ max-width: 700px;
+
+
+}
+
+.inputTop{
+
+    margin-top: 20px;
+
+
+}
+
+.textform{
+    color: #03c012;
+    text-decoration-color: #05f719;
+    padding: 5px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.submitButton{
+
+    background-color: #4CAF50; 
+    padding: 3px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
+
+}
+
+.areaColor{
+
+   
+
+
+}
+
+.userData{
+    border:1px solid rgb(49, 255, 21);
+    display: block;
+    padding: 15px;
+    background-color: #8995ff;
+    
+    
+}
+
+.userdata{
+
+    border:1px solid rgb(136, 155, 236);
+    width: 100%;
+    display: inline-flex;
+    text-align: right;
+
+
+}
+
+.userTables{
+    overflow-y: scroll;
+    max-height: 500px;
+}

@@ -1,0 +1,74 @@
+.sidebarr{
+    padding-top: 60px;
+    
+    padding-bottom: 65px ;
+    text-decoration: rgb(241, 4, 4);
+   
+   
+   }
+   
+   .sidebartext{
+    
+    padding: 12px 12px;
+    text-shadow: 2px 2px 5px rgb(89, 0, 255);
+    background-color: rgb(53, 255, 120); 
+    padding: 3px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: 3px;
+    border-color: blueviolet;
+   
+   
+   }
+   
+   .mdicon{
+   
+       padding: 14px 14px;
+       padding-left: 45px;
+   
+   }
+   
+   .namethings{
+       text-shadow: 2px 2px 5px rgb(140, 82, 247) 
+   }
+   
+   .sidebarr{
+       background-color: rgb(130, 247, 247);
+   }
+
+   p td{
+    border:1px solid rgb(255, 255, 255);
+   
+    
+    padding: 20px;
+    padding-left: 30px;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 211, 245);
+}
+
+.tableclass{
+    
+    max-width: 700px;
+   
+   
+    display: inline-block;
+    overflow-y: scroll;
+    height: 400px;
+    
+ }
+
+ .table2{
+
+    border:1px solid rgb(186, 117, 255);
+   
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 30px;
+
+ }

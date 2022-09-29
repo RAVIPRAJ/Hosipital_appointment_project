@@ -1,0 +1,48 @@
+p td {
+
+   
+   
+   
+  
+    border-collapse: collapse;
+    font-size: small;
+  
+
+}
+
+.tdclass {
+    
+    border:1px solid rgb(117, 142, 255);
+    display: block;
+    font-size: small;
+   
+  
+ 
+}
+
+.tableClass{
+  
+   overflow-y: scroll;
+   height: 500px;
+   margin-left: 55px;
+}
+
+.headings{
+  display: inline;
+
+}
+
+.docsidebar{
+  color: blue;
+  margin-top: 20px;
+  text-shadow: 2px rgb(117, 255, 124);
+  
+  
+}
+
+.Docside{
+  background-color: rgb(85, 167, 85);
+  width: 200px;
+  height: 400px;
+  padding-top: 50px;
+}

@@ -1,0 +1,33 @@
+.specialistt{
+    border: none;
+    text-align: center;
+    padding-left: 400px;
+   
+
+}
+
+.docname {
+    border: none;
+    text-align: justify;
+    padding-left: 340px;
+   
+   
+}
+
+.specia{
+
+   text-align: right;
+
+}
+
+.mainp{
+    overflow-y: scroll;
+    max-height: 350px;
+
+}
+
+.maintable{
+    padding-left: 320px;
+}
+
+
